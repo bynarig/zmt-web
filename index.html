@@ -14,49 +14,33 @@
     <div class="hero__grid">
       <div>
         <p class="eyebrow">Projekt ZMT · 60 s mikropříběh</p>
-        <h1>Neon Microstory Lab</h1>
-        <p class="lede">Audiovizuální experiment spojující statické obrazy, adaptované videoklipy a tři kategorie zvuků do jednominutového mikropříběhu.</p>
-        <a class="cta" href="#video">Přehrát výsledné video</a>
+        <h1>Jak funguje internet</h1>
+        <p class="lede">Audiovizuální experiment spojující statické obrazy, adaptované videoklipy a tři kategorie zvuků do jednominutového mikropříběhu. Zamysleli jsme se nad tím, o čem asi přemýšlejí studenti naší fakulty, a z výsledného brainstormingu vzniklo hravé video.</p>
       </div>
       <ul class="hero__stats" aria-label="shrnutí parametrů projektu">
         <li>
-          <span>4</span>
+          <span>2</span>
           <p>upravené statické snímky</p>
         </li>
         <li>
-          <span>2</span>
+          <span>10</span>
           <p>upravené videosekvence</p>
         </li>
         <li>
-          <span>6</span>
+          <span>2</span>
           <p>vrstev zvuku (hudba · ruchy · řeč)</p>
         </li>
       </ul>
     </div>
+      <div class="hero__video">
+        <div class="video-frame">
+          <iframe src="https://www.youtube.com/embed/w27QnsATpPo" title="Entangled Echoes" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
   </header>
 
   <main>
-    <section class="panel" id="idea">
-      <div class="panel__title">Myšlenka</div>
-      <div class="panel__body">
-        <h2>Od nápadu k storyboardu</h2>
-        <p>Mikropříběh sleduje noční hlídačku, která při inspekci prázdné galerie propojuje digitální exponáty a odemyká latentní zvukovou paměť města. Zápletka vznikla z brainstormingové mapy s motivy „prázdné ulice“, „reflexní plochy“ a „hlas města“.</p>
-        <div class="timeline">
-          <article>
-            <h3>01 · Moodboard</h3>
-            <p>Kolekce neonových fotografií, skleněných textur a futuristické architektury vytvořila konzistentní color grading.</p>
-          </article>
-          <article>
-            <h3>02 · Storyboard</h3>
-            <p>Šest polí zachycuje klíčové střihy: intro galerie, přechod přes holografický stůl, oživení fragmentů, závěrečný zoom ven.</p>
-          </article>
-          <article>
-            <h3>03 · Zvukový oblouk</h3>
-            <p>Přechod od šumů ventilace k ambientní hudbě a zakončení krátkou promluvou hlídačky.</p>
-          </article>
-        </div>
-      </div>
-    </section>
+
 
     <section class="panel" id="workflow">
       <div class="panel__title">Workflow</div>
@@ -64,27 +48,31 @@
         <h2>Technická realizace</h2>
         <div class="workflow-grid">
           <article>
-            <h3>Úprava statických snímků</h3>
-            <ul>
-              <li>RAW fotografie z pěší zóny a interiéru galerie.</li>
-              <li>Úprava jasu/kontrastu v Lightroomu, lokální masky pro neonový glow.</li>
-              <li>Distortion & tilt-shift pro simulaci perspektivního skla.</li>
-            </ul>
-          </article>
-          <article>
             <h3>Videosekvence</h3>
             <ul>
-              <li>Shot A: time-lapse městského provozu, škálování na 80 %, cyan tint.</li>
-              <li>Shot B: slow-motion detail ruky, posun o +45 px, mírná průhlednost pro overlay.</li>
-              <li>Obě sekvence v After Effects s maskami a přechody pomocí Add blend.</li>
+              <li>Video obsahuje velké množství efektů.</li>
+              <li>Byly použity 2 plynulé přechody.</li>
             </ul>
           </article>
           <article>
             <h3>Zvuková dramaturgie</h3>
             <ul>
-              <li>Hudba: ambientní pad + perkusivní glitch, side-chain na ruchy.</li>
-              <li>Ruchy: kroky + vzdálený provoz, high-pass filtrace 160 Hz.</li>
-              <li>Řeč: voice-over hlídačky + krátký whisper glitch, komprese + plate reverb.</li>
+              <li>Měli jsme jen dvě vrstvy zvuku: klasickou skladbu, která se postupně prolíná fadem do rapového beatu.</li>
+              <li>Klasika drží první polovinu, gradujeme ji EQ + kompresí tak, aby přechod zněl hladce.</li>
+              <li>Rap beat přebírá druhou část a doplňuje jej jemný šum pro pocit studentské improvizace.</li>
+            </ul>
+          </article>
+          <article>
+            <h3>Final Cut Pro · Efekty</h3>
+            <ul>
+              <li>Fade Transitions Pack</li>
+              <li>Fast Transitions Pack</li>
+              <li>Lines and Routes Pack</li>
+              <li>Liquid Glass Pack</li>
+              <li>Smart LUTs Pack</li>
+              <li>Ultimate Text Presets Pack</li>
+              <li>Messages Pack</li>
+              <li>Subtitles Pack</li>
             </ul>
           </article>
         </div>
@@ -97,46 +85,34 @@
         <h2>Klíčová aktiva</h2>
         <div class="asset-grid">
           <figure>
-            <img src="assets/photo-gallery.jpg" alt="Galerie s neonovým světlem" />
-            <figcaption>Photo · Galerie: color grading + perspektivní warp</figcaption>
+            <p >3D model kabelu zevnitř</p>
+            <figcaption>3D model kabelu zevnitř ukazuje, jak proudí data mezi usery.</figcaption>
           </figure>
           <figure>
-            <img src="assets/photo-street.jpg" alt="Noční ulice" />
-            <figcaption>Photo · Ulice: duotone cyan/magenta, maskování světel</figcaption>
+            <p  >Psaní na klávesnici</p>
+            <figcaption>Psaní na klávesnici symbolizuje brainstorming nad tím, co řeší usery.</figcaption>
           </figure>
           <figure>
-            <img src="assets/video-timelapse.jpg" alt="Timelapse města" />
-            <figcaption>Video A · Timelapse: rychlost 150 %, glow trails</figcaption>
+            <p >Makro záběr serveru</p>
+            <figcaption>Makro servery: detailní světla, krátké záběry, barevně sjednocené.</figcaption>
           </figure>
           <figure>
-            <img src="assets/video-hand.jpg" alt="Detail ruky" />
-            <figcaption>Video B · Ruka: slow-motion, overlay na 60 % opacity</figcaption>
+            <p>Animace Země</p>
+            <figcaption>Animace Země se sítí globálního internetu představuje globalni internet připojeni.</figcaption>
           </figure>
           <figure>
-            <img src="assets/audio-mix.jpg" alt="Audio mix" />
-            <figcaption>Audio rack: EQ + delay + granular FX</figcaption>
+            <p>Google datacentra</p>
+            <figcaption>Datacentra Google: krátká smyčka barevně upravená pro jednotný feeling.</figcaption>
           </figure>
           <figure>
-            <img src="assets/storyboard.jpg" alt="Storyboard" />
-            <figcaption>Storyboard: 6 panelů, záměr střihů a světla</figcaption>
+            <p>Animace z Prahy do Mnichova</p>
+            <figcaption>Animace cesty Praha → Mnichov: linka ukazuje, kam až informace doskáče.</figcaption>
+          </figure>
+          <figure>
+            <p >Tancující myš</p>
+            <figcaption>Outro s tancující myší završuje celé veselé video.</figcaption>
           </figure>
         </div>
-      </div>
-    </section>
-
-    <section class="panel" id="video">
-      <div class="panel__title">Výsledné video</div>
-      <div class="panel__body">
-        <h2>Entangled Echoes · 00:60</h2>
-        <p>Video kombinuje motion collage statických snímků a dvou videí se třemi vrstvami zvuku. Díky modulaci průhlednosti a RGB split spolu ladí fyzické i digitální světy.</p>
-        <div class="video-frame">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" title="Entangled Echoes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-        </div>
-        <ul class="specs">
-          <li>Délka: 00:56</li>
-          <li>Rozlišení: 1920×1080 @ 24 fps</li>
-          <li>Mastering: -14 LUFS, peak -1 dB</li>
-        </ul>
       </div>
     </section>
 
@@ -145,11 +121,11 @@
       <div class="panel__body">
         <h2>Postup krok za krokem</h2>
         <ol class="process-list">
-          <li>Předprodukce: moodboard, storyboard, výběr lokací.</li>
-          <li>Sběr dat: fotografování města, záznam hlasu, field recording ruchů.</li>
-          <li>Postprodukce: Lightroom, After Effects, Ableton Live, DaVinci Resolve.</li>
-          <li>Mastering: color grading v ACES, audio mastering v Izotope Ozone.</li>
-          <li>Publikace: export MP4 H.264, upload na YouTube, implementace embed.</li>
+          <li>Ideace: brainstorm, moodboard a rychlé skici scén inspirované tím, co by řešili studenti naší fakulty.</li>
+          <li>Produkce: natáčení krátkých klipů (3D kabel, klávesnice, servery) a sběr referencí pro animace.</li>
+          <li>Postprodukce obrazu: kompletní color grading, vyvážení bílé a doladění délky všech sekvencí.</li>
+          <li>Postprodukce zvuku: dvě vrstvy (klasika → rap beat) s pečlivým fadem, mixem a masteringem.</li>
+          <li>Finalizace: export, kontrola korekcí, úprava titulků a nasazení embed kódu.</li>
         </ol>
       </div>
     </section>
@@ -160,4 +136,3 @@
   </footer>
 </body>
 </html>
-
